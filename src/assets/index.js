@@ -1,0 +1,10 @@
+import photo from "./photos/photo.png";
+import shoppingCart from "./photos/shoppingCart.png";
+import HandEye from "./photos/HandEye.png";
+import filterIcon from "./photos/adjustments-horizontal.png";
+import {colors} from "./colors/colors.js";
+import shoppingCartWhite from "./photos/shoppingCartWhite.png";
+import startShopping from "./photos/startShoppingIcon.png";
+import envelope from "./photos/envelope.png";
+import check from "./photos/check.png";
+export {photo, shoppingCart, HandEye, filterIcon, colors, shoppingCartWhite, startShopping, envelope, check};
