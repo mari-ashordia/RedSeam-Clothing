@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/RedSeam-Clothing/",
+  base: process.env.NODE_ENV === "production" ? "/RedSeam-Clothing/" : "/",
   plugins: [react(),tailwindcss()],
 })
