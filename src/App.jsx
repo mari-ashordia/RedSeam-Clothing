@@ -15,7 +15,7 @@ function App() {
   const isCongratsOpen = useStore(state => state.isCongratsOpen);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename = {import.meta.env.BASE_URL}>
       <Header />
       <Routes>
         <Route path = "/" element = {<ProductsListPage />}/>
